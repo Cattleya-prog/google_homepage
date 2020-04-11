@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Newbie DIY Google homepage</title>
+    <style type="text/css">
+    a {color:black;}
+    .maindiv {position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;}
+    .navbar {
+        background: linear-gradient(45deg,rgba(255,0,0,0.30), rgba(255,255,0,0.30),rgba(0,0,255,0.30), rgba(0,128,0,0.30)); 
+        list-style-type: none;
+        text-align: center; 
+        padding: 0;
+        margin: 0;}
+    .navbar li {
+        display: inline-block;
+        font-size: 15px;
+        padding: 10px;}
+    footer {position:absolute;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        font-size: 10px;
+        background: linear-gradient(45deg,rgba(255,0,0,0.30), rgba(255,255,0,0.30),rgba(0,0,255,0.30), rgba(0,128,0,0.30)); }
+    </style>
+</head>
+<body>
+<main>
+    <ul class="navbar">
+        <ul style="padding-left: 0px">
+            <li><a href="#">Gmail</a></li>
+            <li><a href="#">Images</a></li>
+        </ul>
+    </ul>
+    <div class="maindiv">
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+    <form action="#"><input type="text" placeholder="Type search text"><button type="submit">Search</button>
+    </form>
+</div>
+</main>
+<footer>Footer</footer>
+</body>
+</html>
